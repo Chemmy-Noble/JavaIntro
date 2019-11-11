@@ -48,6 +48,15 @@ public class VariableBasics {
 		System.out.println(Double.MIN_VALUE);
 		System.out.println(Double.MAX_VALUE);
 		
+		// char
+		char ein_zeichen = 'a';
+		System.out.println(ein_zeichen);
+		// char zwei_zeichen = 'ab'; geht nicht.
+		
+		// string
+		String text = "abcdefgh";
+		System.out.println(text);
+		
 		
 
 	}
