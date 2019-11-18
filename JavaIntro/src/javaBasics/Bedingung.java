@@ -4,10 +4,10 @@ public class Bedingung {
 
 	public static void main(String[] args) {
 		//
-		if (1<3) {
+		if (1 < 3) {
 			System.out.println("1 ist kleiner als 3");
 		}
-        //
+		//
 //		if (3<1) {
 //
 //		System.out.println("3 größer als 1");
@@ -28,8 +28,8 @@ public class Bedingung {
 		if (zahlA == zahlB) {
 		}
 		// nicht gleich
-		if ( zahlA != zahlB) {
-	    }
+		if (zahlA != zahlB) {
+		}
 		//
 		if ("hans" == "hans") {
 			System.out.println("Hans");
@@ -45,10 +45,16 @@ public class Bedingung {
 			System.out.println("hansi");
 		}
 		// Klammern
-		if (0<1)
+		if (0 < 1) {
 			System.out.println("juhu");
-		    System.out.println("abc");
+		}
+		System.out.println("abc");
+		//
+		System.out.println(9 % 2);
+//		if (9 % 3) {
+//			System.out.println("Rest ist 0");
+		}
 
 	}
 
-}
+

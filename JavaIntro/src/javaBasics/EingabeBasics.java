@@ -1,10 +1,15 @@
 package javaBasics;
 
+import java.util.Scanner;
+
 public class EingabeBasics {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Scanner eingabe = new Scanner(System.in);
+		//
+		System.out.println(eingabe.nextLine());
+//		eingabe.nextInt();
+//		eingabe.next
 	}
 
 }

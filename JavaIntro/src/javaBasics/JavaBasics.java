@@ -45,6 +45,5 @@ public class JavaBasics {
 		System.out.println("3+3="+3+3);
 		//
 		System.out.println((1+1)+"Ergebnis");
-		System.out.println("3+3="+(3+3));
-
-
+		System.out.println("3+3="+(3+3)); 
+	}
