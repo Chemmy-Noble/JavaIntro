@@ -28,7 +28,10 @@ public class Additionsrechner {
 		} else if (operator.equals("/")) {
 			c = a / b;
 			System.out.print("Ergebnis" + c);
-		} else {System.out.print("Syntax Error");}; 
+		} else {
+			System.out.print("Syntax Error");
+		}
+		;
 		;
 
 	}
