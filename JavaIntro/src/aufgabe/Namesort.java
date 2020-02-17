@@ -1,24 +1,30 @@
 package aufgabe;
 
+import java.util.ArrayList;
+
 public class Namesort {
 
 	public static void main(String[] args) {
-		String name1 = "Bastian";
-		String name2 = "Viktor";
-		String name3 = "Chemmy";
-		String name4 = "Oleg";
-		String name5 = "David";
-		String name6 = "Theo";
-		String name7 = "Martin";
-		String name8 = "Leo";
-		String name9 = "Martina";
-		
-		int diff = name1.compareTo(name2);
-		System.out.print(diff);
-		if (diff < 0 ) {
-			System.out.print(name1);
+		String l;
+		int i, j;
+		ArrayList<String> name = new ArrayList<String>();
+		name.add("Basti");
+		name.add("Viktor");
+		name.add("Chemmy");
+		name.add("Oleg");
+		name.add("David");
+		name.add("Martin");
+		name.add("Leo");
+		for (i = 1; i < name.size(); i++) {
+			for (j = 0; j > 0; j--) {
+				if (name.get(j).compareToIgnoreCase(name.get(j + 1)) > 0) {
+					l = name.get(j);
+					name.set(j, name.get(j + 1));
+					name.set(j + 1, l);
+					System.out.println(name);
+
+				}
+			}
 		}
-
 	}
-
 }
